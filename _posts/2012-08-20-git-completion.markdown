@@ -16,9 +16,9 @@ tags: [git]
 I had a problem updating my git, the `__git_ps1` stopped working.
 
 Reading the git changelog's, i found this,
-> `A rather heavy-ish "git completion" script has been split to create
-   a separate "git prompting" script, to help lazy-autoloading of the
-   completion part while making prompting part always available.`
+> A rather heavy-ish "git completion" script has been split to create
+> a separate "git prompting" script, to help lazy-autoloading of the
+> completion part while making prompting part always available.
 
 The scripts are now divided, we have `git-completion.bash` and the `git-prompt.sh` where is the `__git_ps1`
 
