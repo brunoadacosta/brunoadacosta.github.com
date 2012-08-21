@@ -22,7 +22,7 @@ Reading the git changelog's, i found this,
 
 The scripts are now divided, we have `git-completion.bash` and the `git-prompt.sh` where is the `__git_ps1`
 
-Enough to copy the [git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh) in the yours home path and put the bellow line to `.bash_profile`
+To correct, copy the [git-prompt.sh](https://raw.github.com/git/git/master/contrib/completion/git-prompt.sh) in the yours home path and put the bellow line to `.bash_profile`
 
 {% highlight bash %}
 if [ -f ~/.git-prompt.sh ]; then
